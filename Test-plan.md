@@ -1,68 +1,88 @@
-# Test Plan
+# 🧪 Test Plan
 
-## 1. Purpose
+## 🎯 1. Purpose
 
-Simplifai sistemində frontend və backend (API) funksionallığın düzgün işləməsini yoxlamaq
+To verify that the frontend and backend (API) functionalities of the **Simplifai** system work correctly and meet the expected requirements.
 
-## 2. Saytın aktiv modulları
+---
 
-- Authentication (Login / Token)
-- User API
-- Data API
-- Login səhifəsi
+## 📂 2. Active System Modules
 
-## 3. Testing növləri
+- 🔐 Authentication (Login / Token)
+- 👤 User API
+- 📊 Data API
+- 🖥️ Login Page
 
-- Functional
-- Smoke
-- Regression
-- API testing (Backend)
-- UI testing (Frontend)
+---
 
-## 4. Test alətləri
+## 🧪 3. Testing Types
 
-- **Postman** – API request-lərin yoxlanılması  
-- **Swagger** – endpoint-lərin baxılması  
-- **Browser** – əlavə yoxlamalar üçün  
+- ✅ Functional Testing
+- 🚀 Smoke Testing
+- 🔄 Regression Testing
+- 🔌 API Testing (Backend)
+- 🎨 UI Testing (Frontend)
 
-## 5. Environment
+---
 
-- **OS:** Windows 11, Version 25H2  
-- **Browser:** Google Chrome Version 123.x (latest)  
-- **API Base URL:** https://smplifai-backend.vercel.app/api  
-- **Frontend URL:** https://smplifai-frontend.vercel.app  
+## 🛠️ 4. Test Tools
 
-## 6. Giriş kriteriyaları
+- **Postman** – API request testing
+- **Swagger** – API endpoint verification
+- **Google Chrome** – Frontend testing and additional validation
 
-- API-lar hazırdır  
-- Test case-lər hazırdır  
-- Test mühiti aktivdir  
-- Token əldə etmək mümkündür  
-- Frontend açılır  
+---
 
-### Exit criteria
+## 💻 5. Test Environment
 
-- 85% test case-lər passed  
-- Critical defectlər yoxdur  
+- **Operating System:** Windows 11 Version 25H2
+- **Browser:** Google Chrome Version 123.x (Latest)
+- **API Base URL:** https://smplifai-backend.vercel.app/api
+- **Frontend URL:** https://smplifai-frontend.vercel.app
 
-## 7. Risklər
+---
 
-- Saytın işlək vəziyyətdə olmaması  
-- Sistem çökməsi  
-- QA staff işlək vəziyyətdə olmaması  
-- API-lər işləməyə bilər  
-- Token və ya autentifikasiya problemləri  
-- Frontend və backend arasında əlaqə problemi  
+## ✅ 6. Entry Criteria
 
-## 8. Resurslar
+- APIs are available and accessible.
+- Test cases have been prepared.
+- The test environment is ready.
+- Authentication token can be generated.
+- The frontend application is accessible.
 
-- QA – Ləman Qurbanova  
+### 🏁 Exit Criteria
 
-## 9. Test deliverables
+- At least **85%** of test cases have **Passed**.
+- No **Critical** defects remain open.
 
-- Test Summary Report  
-- Bug Reports  
+---
 
-## 10. Vaxt
+## ⚠️ 7. Risks
 
-14.04.2026 – 18.04.2026  
+- Website or system is unavailable.
+- Unexpected system crashes.
+- QA resources are unavailable.
+- APIs may become inaccessible.
+- Authentication or token-related issues.
+- Communication problems between the frontend and backend.
+
+---
+
+## 👩‍💻 8. Resources
+
+**QA Engineer:** Leman Qurbanova
+
+---
+
+## 📦 9. Test Deliverables
+
+- 📋 Test Plan
+- ✅ Test Cases
+- 🐞 Bug Reports
+- 📊 Test Summary Report
+
+---
+
+## 📅 10. Timeline
+
+**14.04.2026 – 18.04.2026**
